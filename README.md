@@ -6,6 +6,12 @@ An interactive web-based visualization of the Mandelbrot set, demonstrating adva
 ![Canvas API](https://img.shields.io/badge/API-Canvas%202D-blue)
 ![Performance](https://img.shields.io/badge/Performance-Optimized-orange)
 
+## Live Demo
+
+**[Try the Mandelbrot Set Explorer →](https://praveen5566.github.io/mandelbrot-explorer-canvas/)**
+
+*Experience the interactive visualization in your browser*
+
 ## Project Overview
 
 This project creates a real-time interactive visualization of the Mandelbrot set using the iterative equation:
