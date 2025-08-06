@@ -60,9 +60,15 @@ Performance optimization through intelligent iteration management allows users t
 
 The color scheme uses LIGHT colors (white) for points inside the Mandelbrot set (bounded) and DARK gradients for points outside the set (unbounded). Color intensity is based on escape speed, creating mathematically accurate yet visually appealing visualizations.
 
-### 7. Reasons for Choosing Canvas over WebGL
+### 7. Reasons for Choosing Canvas over WebGL, three.js and P5.js
 
-Canvas 2D API was chosen for its simplicity, accessibility, and direct pixel control. It provides cross-platform compatibility without GPU requirements, eliminates floating-point precision issues from GPU calculations, and offers easier debugging and maintenance compared to WebGL shaders.
+**Canvas 2D API** was chosen for its simplicity and direct control:
+
+- **vs WebGL**: No complex shaders, better precision, works on all devices
+- **vs three.js**: Zero dependencies, no 3D overhead for 2D visualization  
+- **vs P5.js**: Faster performance, full control over rendering pipeline
+
+**Result**: Perfect balance of performance, simplicity, and educational value for mathematical visualization. Only drawback is its CPU bound (will lag with lots of iterations), but that is solved using iterations selector.
 
 ### 8. Performance Considerations
 
