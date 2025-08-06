@@ -12,7 +12,6 @@ canvas {
   image-rendering: pixelated; /* Keeps pixels sharp when zoomed */
   border: 2px solid white;
   cursor: grab;
-  margin-top: 1rem;
 }
 
 h1 {
@@ -22,8 +21,8 @@ h1 {
 .control-panel {
   display: flex;
   gap: 2rem;
-  margin-top: 1rem;
-  padding: 1rem;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
   background: rgba(255, 255, 255, 0.1);
   border-radius: 8px;
   border: 1px solid rgba(255, 255, 255, 0.2);
