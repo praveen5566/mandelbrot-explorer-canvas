@@ -56,6 +56,9 @@ Performance optimization through intelligent iteration management allows users t
 - **200 iterations**: Balanced detail (~0.3s), smooth interaction  
 - **300 iterations**: Maximum detail (~0.8s), for final visualization
 
+  Future enhancements: Add Web workers to offload computationally intensive JavaScript calculations to background threads and to avoid blocking the main thread by keeping the UI responsive.
+
+
 ### 6. DARK Color Gradient Choice Based on Iteration Count
 
 The color scheme uses LIGHT colors (white) for points inside the Mandelbrot set (bounded) and DARK gradients for points outside the set (unbounded). Color intensity is based on escape speed, creating mathematically accurate yet visually appealing visualizations.
